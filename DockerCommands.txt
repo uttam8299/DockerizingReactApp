@@ -1,0 +1,7 @@
+To build image - docker build . - in the parent directory where Dockerfile resides.
+To build image with tag- docker build -t <tag-name> . - in the parent directory where Dockerfile resides.
+To list all docker images - docker image ls
+To run docker image - docker run <tag-name> or docker run <image-id>
+To run docker image with port mapping - docker run -dp <host-port>:<container-port> --name <container-name> <image-tag> - access app using localhost:<host-port>
+
+Rsun docker ps or docker container ps to show a list of all the running containers.
